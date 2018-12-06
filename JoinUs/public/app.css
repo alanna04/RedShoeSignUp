@@ -1,0 +1,283 @@
+body {
+  
+  text-shadow: 0 .05rem .1rem rgba(0,0,0,.5);
+  font-family: 'Roboto', sans-serif;
+  color: rgb(66,69,86);
+  height: 100%;
+  background-image: url('http://i.imgur.com/BJP2Q1j.jpg');
+  background-image: url('https://cdnc.lystit.com/photos/d7e1-2015/08/29/christian-louboutin-black-red-pigalle-follies-120mm-ombre-pumps-black-product-0-504287327-normal.jpeg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 50%;
+    background-position: 10% 70%;
+  font-weight: 100;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+}
+/*.container{
+	max-width: 1500px;
+	margin: 0 auto;
+	padding: 0 20px;
+}*/
+.flex-container .left-side{
+width: 50%;
+display: inline-block;
+padding-top: 50px;
+
+
+}
+.flex-container .left-side img{
+display: inline-block;
+width:90%;
+}
+
+.flex-container .right-side{
+width: 40%;
+display: inline-block;
+ padding-bottom: 80px;
+float: right;
+}
+
+.first-h1{
+  
+  font-size: 10rem;
+  line-height: 100px;
+  font-weight: 100;
+}
+
+.second-h1{
+  font-size: 8em;
+  line-height: 100px;
+  font-weight: 100;
+}
+span{
+  color: #DE2903;
+}
+
+p {
+  margin: 0;
+  font-size: 1.5em;
+   
+  
+}
+
+.form {
+	line-height: 1.1;
+	border: none;
+	border-bottom: 3px solid #ebebeb;
+	margin-top: 30px;
+	
+	width: 300px;
+	font-size: 1.4em;
+	color: #000000;
+	padding: 5px 10px;
+	background: transparent;
+}
+
+button {
+    line-height: 2.0;
+    border: none;
+    border:3px solid white;
+    font-size: 1.4em;
+    color: rgb(66,69,86);
+    padding: 5px 30px;
+    background: rgba(236, 236, 236, 1);
+    border-radius: 5px;
+    opacity: 0.8;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: rgba(0,0,0,0.8);
+}
+input[type=text]:focus {
+  outline: none;
+}
+
+button:hover{
+  opacity: 1;
+}
+
+/*@media only screen and (min-device-width : 1215px) and (max-device-width : 1394px)*/
+@media only screen and (max-width: 1500px)
+{
+  body{
+    
+    background-size: 52%;
+    background-position: 0.2% 67%;
+  }
+  .flex-container .right-side{
+    padding-bottom: 50px;
+}
+
+.first-h1{
+   font-size: 6.9em;
+  line-height: 100px;
+  font-weight: 100;
+        }
+    .second-h1{
+  font-size: 6.6em;
+  line-height: 80px;
+  font-weight: 100;
+  }
+  p {
+  font-size: 1.6em;
+  padding-bottom: 25px;
+    }
+    
+  button {
+    line-height: 1.5;
+}
+}
+
+/*Laptop Devices*/
+
+@media only screen and (max-width: 1215px) {
+  body{
+   
+    background-size: 63%;
+    background-position: -3% 70%;
+  }
+  .flex-container .right-side{
+    padding-bottom: 100px;
+    
+}
+
+.first-h1{
+   font-size: 5em;
+  line-height: 100px;
+  font-weight: 100;
+        }
+    .second-h1{
+  font-size: 5em;
+  line-height: 80px;
+  font-weight: 100;
+  }
+  p {
+  font-size: 1.6em;
+  padding-bottom: 25px;
+    }
+    .form {
+	line-height: 1.1;
+  
+	margin-top: 30px;
+	
+	width: 200px;
+	font-size: 1.2em;
+	padding: 5px 10px;
+}
+ 
+    
+  button {
+    line-height: 1.1;
+    padding: 5px 10px;
+    
+      }
+ }
+
+  /*Tablet Devices*/
+@media only screen and (max-width: 1023px) 
+{
+  body{
+    
+    background-size: 65%;
+    background-position: -4.8% 79%;
+  }
+   .flex-container .right-side{
+    padding-bottom: 60px;
+}
+
+.first-h1{
+   font-size: 5em;
+  line-height: 100px;
+  font-weight: 100;
+        }
+  .first-h1::after { 
+    content: " RED SHOE";
+    color: #DE2903;
+}
+    .second-h1{
+      display: none;
+  /*font-size: 4.1em;
+  line-height: 80px;
+  font-weight: 100;*/
+  }
+  p {
+  font-size: 1.6em;
+  padding-bottom: 25px;
+  padding-bottom: 80px;
+    }
+    .form {
+	line-height: 1.1;
+  
+	margin-top: 30px;
+	
+	width: 170px;
+	font-size: 1.2em;
+	padding: 5px 10px;
+}
+ 
+  button {
+    line-height: 1.1;
+    padding: 5px 10px;
+    
+      }
+    
+}
+
+  /*Mobile Devices*/
+@media only screen and (max-width: 767px) {
+    body{
+    
+     background-size: 50%;
+    background-position: 50% 100%;
+  }
+  
+  .flex-container .left-side img{
+width:100%;
+
+}
+
+.flex-container .right-side{
+width: 100%;
+text-align: center;
+
+}
+
+.first-h1{
+  margin-top: -290px;
+  font-size: 3rem;
+  line-height: 70px;
+  font-weight: 300;
+}
+
+    .second-h1{
+  font-size: 4.1em;
+  line-height: 80px;
+  font-weight: 100;
+  }
+
+p {
+  margin-bottom: -50px;
+  font-size: 1.5em;
+  
+}
+
+    .form {
+	line-height: 1.5;
+	width: 70%;
+	font-size: 1.9em;
+        }
+        button {
+    line-height: 1.5;
+    border: none;
+    border:3px solid white;
+    font-size: 1.1em;
+    padding: 1px 5px;
+}
+    
+  }
